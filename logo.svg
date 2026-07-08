@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <!--
+    LOGO — modifica libera
+    - Il disegno (torre + montagne + raggi) è l'elemento principale del logo:
+      funziona anche senza il testo "TRENTO" in basso, che è solo un rinforzo.
+    - Per cambiare colore: sostituisci #c56969 (accento) e #211d1c (sfondo) con altri codici.
+    - Apri con un editor di testo o con Illustrator/Inkscape/Figma per modificare le forme.
+  -->
+  <defs>
+    <style>
+      .logo-ring    { fill: none; stroke: #c56969; stroke-width: 2.5; }
+      .logo-ray     { stroke: #c56969; stroke-width: 2; opacity: .55; }
+      .logo-ridge-1 { fill: #3a2f2c; }
+      .logo-ridge-2 { fill: #c56969; }
+      .logo-tower   { fill: #f4ece1; }
+      .logo-word    { font-family: 'Fraunces', Georgia, 'Times New Roman', serif; fill: #f4ece1; }
+    </style>
+  </defs>
+
+  <circle cx="110" cy="110" r="104" fill="#211d1c"/>
+  <circle class="logo-ring" cx="110" cy="110" r="95"/>
+  <circle class="logo-ring" cx="110" cy="110" r="88" opacity=".4"/>
+
+  <!-- raggi d'alba -->
+  <g class="logo-ray">
+    <line x1="110" y1="34" x2="110" y2="52"/>
+    <line x1="76"  y1="42" x2="86"  y2="58"/>
+    <line x1="144" y1="42" x2="134" y2="58"/>
+    <line x1="52"  y1="62" x2="66"  y2="74"/>
+    <line x1="168" y1="62" x2="154" y2="74"/>
+  </g>
+
+  <!-- catena montuosa lontana -->
+  <polygon class="logo-ridge-1" points="18,148 40,120 58,138 82,100 100,132 122,105 140,136 160,112 190,148"/>
+
+  <!-- catena montuosa vicina -->
+  <polygon class="logo-ridge-2" points="14,160 48,118 72,144 100,96 128,142 156,116 200,160" opacity="0.95"/>
+
+  <!-- torre civica -->
+  <g class="logo-tower">
+    <rect x="99" y="86" width="22" height="60" />
+    <polygon points="99,86 110,68 121,86" />
+    <rect x="107" y="100" width="6" height="10" fill="#211d1c"/>
+    <rect x="107" y="120" width="6" height="10" fill="#211d1c"/>
+    <rect x="98" y="146" width="24" height="6"/>
+  </g>
+
+  <!-- nome del server: opzionale, elimina questo <text> se vuoi solo il simbolo -->
+  <text x="110" y="182" text-anchor="middle" class="logo-word" font-size="20" font-weight="700" letter-spacing="1">TRENTO</text>
+</svg>
