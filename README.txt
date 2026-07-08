@@ -1,1 +1,0 @@
-Sostituisci le immagini nella cartella assets mantenendo gli stessi nomi.
