@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <!--
+    LOGO — modifica libera
+    - Cambia il testo "TRENTO" e "R P" qui sotto con il nome del tuo server.
+    - Cambia il colore aprendo il file e sostituendo #c56969 con un altro codice colore.
+    - Puoi aprire questo file con un editor di testo o con Illustrator/Inkscape/Figma.
+  -->
+  <defs>
+    <style>
+      .logo-ring   { fill: none; stroke: #c56969; stroke-width: 3; }
+      .logo-ridge  { fill: #c56969; }
+      .logo-word   { font-family: 'Fraunces', Georgia, 'Times New Roman', serif; fill: #f4ece1; }
+      .logo-sub    { font-family: 'IBM Plex Mono', 'Courier New', monospace; fill: #f4ece1; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <circle cx="110" cy="110" r="104" fill="#211d1c"/>
+  <circle class="logo-ring" cx="110" cy="110" r="96"/>
+
+  <!-- profilo delle Dolomiti stilizzato -->
+  <polygon class="logo-ridge" points="10,150 45,95 65,120 90,70 115,118 140,85 165,130 190,105 210,150" opacity="0.9"/>
+
+  <!-- nome del server: modifica qui -->
+  <text x="110" y="70" text-anchor="middle" class="logo-word" font-size="34" font-weight="700">TRENTO</text>
+  <text x="110" y="185" text-anchor="middle" class="logo-sub" font-size="14">R O L E P L A Y</text>
+</svg>

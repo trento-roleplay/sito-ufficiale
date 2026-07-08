@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!--
+    FAVICON — modifica libera
+    - Cambia "TR" con le iniziali del tuo server.
+    - Cambia il colore di sfondo sostituendo #c56969.
+  -->
+  <rect width="64" height="64" rx="14" fill="#c56969"/>
+  <polygon points="8,42 20,24 28,34 38,18 50,38 56,30 58,42" fill="#211d1c" opacity="0.35"/>
+  <text x="32" y="41" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-weight="700" font-size="26" fill="#f4ece1">TR</text>
+</svg>
