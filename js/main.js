@@ -1,0 +1,3 @@
+window.addEventListener('scroll',()=>{document.querySelector('header').classList.toggle('scrolled',scrollY>40)});
+let i=0;const slides=['assets/hero.jpg','assets/fazioni.jpg'];setInterval(()=>{i=(i+1)%slides.length;document.querySelector('.hero').style.backgroundImage=`url(${slides[i]})`;},4000);
+document.querySelectorAll('[data-target]').forEach(el=>{let t=+el.dataset.target,c=0;let f=setInterval(()=>{c+=Math.ceil(t/50);if(c>=t){c=t;clearInterval(f)}el.textContent=c;},30)});
