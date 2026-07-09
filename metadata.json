@@ -1,6 +1,0 @@
-{
-  "name": "Trento Roleplay",
-  "description": "Sito ufficiale del server FiveM Trento Roleplay, ambientato nella splendida città di Trento. Scopri il regolamento, unisciti alla community ed entra nel server!",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
